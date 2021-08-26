@@ -15,7 +15,7 @@
     "content_scripts": [
       {
         "matches": [
-          "*://*.zhihu.com/"
+          "*://*.zhihu.com/*"
         ],
         "js": ["scripts/cheesify.js"]
       }
